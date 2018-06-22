@@ -9,11 +9,8 @@ monikerRange: "exchonline-ps || eop-ps"
 # Get-AdvancedThreatProtectionDocumentReport
 
 ## SYNOPSIS
-This cmdlet is available only in the cloud-based service.
+This cmdlet is available only in the cloud-based service. Use the Get-AdvancedThreatProtectionDocumentDetail cmdlet to view the results of Advanced Threat Protection (ATP) detections for files in SharePoint Online, OneDrive for Business and Microsoft Teams (https://go.microsoft.com/fwlink/?linkid=857638) in your could-based organization. For information about the parameter sets in the Syntax section below, see Exchange cmdlet syntax (https://technet.microsoft.com/library/bb123552.aspx). 
 
-Use the Get-AdvancedThreatProtectionDocumentReport cmdlet to view .
-
-For information about the parameter sets in the Syntax section below, see Exchange cmdlet syntax (https://technet.microsoft.com/library/bb123552.aspx).
 
 ## SYNTAX
 
@@ -24,9 +21,7 @@ Get-AdvancedThreatProtectionDocumentReport [-Action <MultiValuedProperty>] [-Agg
 ```
 
 ## DESCRIPTION
-Safe Attachments is a feature in Advanced Threat Protection that opens email attachments in a special hypervisor environment to detect malicious activity.
-
-Safe Links is a feature in Advanced Threat Protection that checks links in email messages to see if they lead to malicious web sites. When a user clicks a link in a message, the URL is temporarily rewritten and checked against a list of known, malicious web sites. Safe Links includes the URL trace reporting feature to help determine who has clicked through to a malicious web site.
+Office 365 Advanced Threat Protection helps detect and block files that are identified as malicious in team sites and document libraries. (https://go.microsoft.com/fwlink/?linkid=857638) 
 
 For the reporting period you specify, the cmdlet returns the following information:
 
